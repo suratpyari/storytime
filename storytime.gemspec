@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<font-awesome-sass>, [">= 4.0.3"])
       s.add_runtime_dependency(%q<jquery-ui-rails>, ["~> 5.0"])
       s.add_runtime_dependency(%q<thor>, ["~> 0.19.1"])
-      s.add_runtime_dependency(%q<compass-rails>, ["~> 3.0.0"])
+      s.add_runtime_dependency(%q<compass-rails>, ["~> 2.0.5"])
       s.add_runtime_dependency(%q<leather>, ["~> 3.3.4"])
       s.add_runtime_dependency(%q<codemirror-rails>, ["~> 4.8"])
       s.add_runtime_dependency(%q<storytime-admin>, ["~> 0.2.0"])
