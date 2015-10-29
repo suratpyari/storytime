@@ -7,7 +7,7 @@
 
     <title><%= t('layout.title') %></title>
 
-    <%= stylesheet_link_tag    "/assets/application", media: "all" %>
+    <%= stylesheet_link_tag    "application", media: "all" %>
     <%= javascript_include_tag "storytime/application" %>
     <%= csrf_meta_tags %>
 
@@ -20,7 +20,7 @@
     <%= render "storytime/application/storytime/header" %>
 
     <%= yield %>
-    
+
     <%= render "storytime/application/storytime/footer" %>
     <%= render "storytime/sites/google_analytics_code" %>
   </body>
