@@ -129,7 +129,6 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.7em;
-    @include transition(0.3s);
     i {
       color: $brand-primary;
       width: 24px;
