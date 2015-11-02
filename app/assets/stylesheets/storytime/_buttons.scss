@@ -6,7 +6,6 @@
   text-transform: uppercase;
   font-weight: lighter;
   border-radius: 0;
-  @include transition(0.3s);
 
   &.btn-delete-resource {
     i {

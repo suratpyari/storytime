@@ -8,7 +8,6 @@
       font-size: 0.9em;
       text-transform: uppercase;
       border-radius: 0;
-      @include transition(0.3s);
 
       &:hover {
         border-color: $st-nav-tabs-link-hover-border-color $st-nav-tabs-link-hover-border-color $st-nav-tabs-border-color;

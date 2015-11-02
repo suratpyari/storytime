@@ -1,5 +1,4 @@
 .modal-dialog {
-  @include transition(all 0.3s);
 }
 
 @media (min-width: $screen-lg-min) {
@@ -22,7 +21,7 @@
       @include box-shadow(none);
       border: none;
     }
-  
+
     .scroll-panel {
       .scroll-panel-header {
 
@@ -34,7 +33,7 @@
           color: #000;
           @include opacity(0.5);
         }
-        
+
         .scroll-panel-title, .btn.pull-left ~ .scroll-panel-title {
           float: none;
           text-align: center;
